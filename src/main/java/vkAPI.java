@@ -6,13 +6,11 @@ import com.google.gson.JsonParser;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class vkAPI {
-    static String access_token = "d2d95eb3176ef3c080c4736e4cb47c7c4f7adee978d5c40c5d2df28c0853c9499a5b36e18f67d841e20b8";
+    static String access_token = "";
 
     public static HashSet<Integer> getAllFriendsIds(Integer id) {
         try {
